@@ -16,7 +16,10 @@
     tapping-term-ms = <160>;
 };
 
-&mt { tapping-term-ms = <220>; };
+&mt {
+    tapping-term-ms = <220>;
+    flavor = "tap-preferred";
+};
 
 / {
     behaviors {
