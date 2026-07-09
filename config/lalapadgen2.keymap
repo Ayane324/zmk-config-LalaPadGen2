@@ -19,6 +19,8 @@ tapping-term-ms = <220>;
     tapping-term-ms = <160>;
 };
 
+&mt { tapping-term-ms = <220>; };
+
 / {
     behaviors {
         zip_dyn_scale: zip_dyn_scale {
