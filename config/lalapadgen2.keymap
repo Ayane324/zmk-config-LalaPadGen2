@@ -70,7 +70,7 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&trans  &kp LS(LG(LEFT_ARROW))  &kp UP            &kp LS(LG(RIGHT))  &trans                  &kp PAGE_UP      &kp HOME        &kp UP_ARROW  &kp LS(INT3)             &kp LS(EQUAL)
+&trans  &kp LS(LG(LEFT_ARROW))  &kp UP            &kp LS(LG(RIGHT))  &trans                  &kp PAGE_UP      &kp HOME        &kp UP_ARROW  &kp LS(EQUAL)            &kp LS(INT3)
 &trans  &kp LEFT                &kp DOWN          &kp RIGHT          &trans                  &kp EXCLAMATION  &kp LS(N8)      &kp LS(N9)    &kp DOLLAR               &kp PERCENT
 &trans  &kp LG(LEFT_ARROW)      &kp LG(UP_ARROW)  &kp LG(RIGHT)      &trans                  &kp LBKT         &kp RBKT        &kp BSLH      &kp RS(INTERNATIONAL_1)  &kp BSLH
 &trans  &trans                  &trans            &trans             &trans  &trans  &trans  &trans           &kp APOSTROPHE  &trans        &trans                   &trans
