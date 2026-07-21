@@ -70,26 +70,26 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&trans  &kp LS(LG(LEFT_ARROW))  &kp UP            &kp LS(LG(RIGHT))  &trans                  &kp PAGE_UP      &kp HOME        &kp UP_ARROW  &kp LS(EQUAL)            &kp LS(INT3)
-&trans  &kp LEFT                &kp DOWN          &kp RIGHT          &trans                  &kp EXCLAMATION  &kp LS(N8)      &kp LS(N9)    &kp DOLLAR               &kp PERCENT
-&trans  &kp LG(LEFT_ARROW)      &kp LG(UP_ARROW)  &kp LG(RIGHT)      &trans                  &kp LBKT         &kp RBKT        &kp BSLH      &kp RS(INTERNATIONAL_1)  &kp BSLH
-&trans  &trans                  &trans            &trans             &trans  &trans  &trans  &trans           &kp APOSTROPHE  &trans        &trans                   &trans
-        &trans                  &trans            &trans             &trans  &trans  &trans  &trans           &trans          &trans        &trans
-&trans  &trans                  &trans                                                                                        &trans        &trans                   &trans
-&trans  &trans                  &trans            &trans             &trans                  &trans           &trans          &trans        &trans                   &trans
+&trans  &trans    &kp UP    &trans     &trans                  &kp PAGE_UP      &kp HOME        &kp UP_ARROW  &kp LS(EQUAL)            &kp LS(INT3)
+&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans                  &kp EXCLAMATION  &kp LS(N8)      &kp LS(N9)    &kp DOLLAR               &kp PERCENT
+&trans  &trans    &trans    &trans     &trans                  &kp LBKT         &kp RBKT        &kp BSLH      &kp RS(INTERNATIONAL_1)  &kp BSLH
+&trans  &trans    &trans    &trans     &trans  &trans  &trans  &trans           &kp APOSTROPHE  &trans        &trans                   &trans
+        &trans    &trans    &trans     &trans  &trans  &trans  &trans           &trans          &trans        &trans
+&trans  &trans    &trans                                                                        &trans        &trans                   &trans
+&trans  &trans    &trans    &trans     &trans                  &trans           &trans          &trans        &trans                   &trans
             >;
         };
 
         SECONDARY_LAYER {
             display-name = "secondary_layer";
             bindings = <
-&kp LS(SEMICOLON)  &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9  &kp COMMA                   &kp KP_NUMLOCK    &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
-&kp PRCNT          &kp NUMBER_4       &kp NUMBER_5  &kp NUMBER_6  &kp N0                      &trans            &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
-&mt LCTRL MINUS    &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD                  &trans            &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK
-&trans             &trans             &trans        &trans        &trans      &trans  &trans  &trans            &trans             &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_DIVIDE
-                   &trans             &trans        &trans        &trans      &trans  &trans  &trans            &trans             &trans           &trans
-&trans             &trans             &trans                                                                                       &trans           &trans           &trans
-&kp LC(LG(LEFT))   &kp LC(LG(RIGHT))  &trans        &trans        &trans                      &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans           &trans           &trans
+&kp LS(SEMICOLON)       &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9  &kp COMMA                   &kp KP_NUMLOCK    &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS
+&mt LEFT_SHIFT PERCENT  &kp NUMBER_4       &kp NUMBER_5  &kp NUMBER_6  &kp N0                      &trans            &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS
+&mt LCTRL MINUS         &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD                  &trans            &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK
+&trans                  &trans             &trans        &trans        &trans      &trans  &trans  &trans            &trans             &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_DIVIDE
+                        &trans             &trans        &trans        &trans      &trans  &trans  &trans            &trans             &trans           &trans
+&trans                  &trans             &trans                                                                                       &trans           &trans           &trans
+&kp LC(LG(LEFT))        &kp LC(LG(RIGHT))  &trans        &trans        &trans                      &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans           &trans           &trans
             >;
         };
 
